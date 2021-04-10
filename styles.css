@@ -20,28 +20,70 @@ div.logo {
     color: #bcc3c7;
 }
 
-ul.nav-links {
-    display: flex;
+    /* ul.nav-links {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 0 2vw;
+        list-style: none;
+        font-size: 1.1rem;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #88949B;
+        padding: 0.5vw;
+    }
+
+    ul li a:hover {
+        color: #304353;
+        background: #fff;
+        padding: 0.5rem;
+    } */
+.nav-links ul {
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    display: flex;
 }
 
-ul li {
-    margin: 0 2vw;
+.nav-links li {
     list-style: none;
-    font-size: 1.1rem;
 }
 
-ul li a {
+.nav-links li a {
     text-decoration: none;
     color: #88949B;
-    padding: 0.5vw;
+    padding: .5rem 1rem;
+    display: block;
 }
 
-ul li a:hover {
+.nav-links li:hover {
     color: #304353;
     background: #fff;
-    padding: 0.5rem;
+}
+
+
+
+/*  */
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
 }
 
 div.hero-section {
@@ -355,31 +397,31 @@ div.footer h6 {
         align-items: flex-start;
     }
 
-    .toggle-btn{
+    .toggle-button{
         display: flex;
         margin-top: 5px;
     }
 
-    .navbar-items{
+    .nav-links{
         display: none;
         width: 100%;
     }
 
-    .navbar-items ul{
+    .nav-links ul{
         width: 100%;
         flex-direction: column;
         background: #2b3c4b;
     }
 
-    .navbar-items li{
+    .nav-links li{
         text-align: center;
     }
 
-    .navbar-items li a{
+    .nav-links li a{
         padding: .5rem 1rem;
     }
 
-    .navbar-items.active{
+    .nav-links.active{
         display: flex;
     }
 
