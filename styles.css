@@ -576,4 +576,35 @@ div.footer h6 {
     div.background p {
         padding: 0.1rem;
     }
+
+    /* SNAPSHOT */
+
+    div.snapshot-team {
+        padding: 0 0.3rem;
+    }
+
+    div.snapshot-team h2 {
+        font-size: 1.3rem;
+    }
+
+    div.snapshot-team p {
+        font-size: 0.8rem;
+    }
+
+    div.snapshot-box {
+        padding: 2rem 0 4rem 0;
+    }
+
+    div.snapshot-box-content {
+        padding: 0 1rem;
+    }
+
+    div.box1 {
+        margin: 10px 0;
+    }
+
+    /*  GALLERY */
+    div.gallery-section {
+        padding: 1rem 0 0 0;
+    }
 }
