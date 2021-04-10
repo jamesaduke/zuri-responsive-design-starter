@@ -529,4 +529,18 @@ div.footer h6 {
     .hero-background-pos {
         display: none;
     }
+
+/*    TEAM */
+    div.snapshot-box-content{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+/*    GALLERY */
+
+    div.gallery-section {
+        padding: 0.5rem;
+    }
 }
+
