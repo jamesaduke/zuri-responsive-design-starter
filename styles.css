@@ -448,6 +448,27 @@ div.footer h6 {
        height: 150px;
        margin-top: 3rem;
    }
+/*    Gallery */
+
+div.gallery-section{
+    padding: 2rem;
+}
+
+div.gallery-img{
+    flex-direction: column;
+}
+
+div.img{
+    margin: 15px;
+}
+
+div.img img{
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Footer */
 
 
 }
