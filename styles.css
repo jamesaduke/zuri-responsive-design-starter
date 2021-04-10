@@ -450,25 +450,42 @@ div.footer h6 {
    }
 /*    Gallery */
 
-div.gallery-section{
-    padding: 2rem;
-}
+    div.gallery-section{
+        padding: 2rem;
+    }
 
-div.gallery-img{
-    flex-direction: column;
-}
+    div.gallery-img{
+        flex-direction: column;
+    }
 
-div.img{
-    margin: 15px;
-}
+    div.img{
+        margin: 15px;
+    }
 
-div.img img{
-    width: 100%;
-    object-fit: cover;
-    width: 100%;
-}
+    div.img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
 
 /* Footer */
+    div.footer{
+        padding: 2rem;
+    }
+
+    div.footer-input{
+        flex-direction: column;
+    }
+
+    input[type="text"], input[type="email"]{
+        margin: 15px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-textarea textarea{
+        width: 100%;
+    }
 
 
 }
